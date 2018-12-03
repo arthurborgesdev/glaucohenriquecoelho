@@ -1,0 +1,31 @@
+{
+  "name": "glaucohenriquecoelho",
+  "version": "0.0.1",
+  "description": "Site do psicólogo Glauco Henrique",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arthurborgesdev/glaucohenriquecoelho.git"
+  },
+  "keywords": [
+    "Site",
+    "nodejs",
+    "pug"
+  ],
+  "author": "Arthur Borges",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arthurborgesdev/glaucohenriquecoelho/issues"
+  },
+  "homepage": "https://github.com/arthurborgesdev/glaucohenriquecoelho#readme",
+  "dependencies": {
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "pug": "^2.0.3"
+  }
+}
